@@ -42,7 +42,7 @@ ul li{
 }
 
 img{
-    width: 6vw;
+    width: 120px;
     max-height: auto;
     border-radius: 50%;
 }
@@ -67,11 +67,7 @@ img{
     font-size: 0.9rem;
     margin-bottom: 1.5rem;
 }
-a{
-    text-decoration: none;
-    color:white;
 
-}
 .attribution { 
     font-size: 11px; 
     text-align: center;
@@ -83,4 +79,10 @@ a{
     flex:1;
     display: flex;
     align-items: center;
+}
+ul li:hover{
+    cursor: pointer;
+    background-color:hsl(75, 94%, 57%);
+    color:hsl(0, 0%, 20%);
+    font-weight: 700;
 }
