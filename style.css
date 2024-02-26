@@ -71,6 +71,7 @@ img{
 .attribution { 
     font-size: 11px; 
     text-align: center;
+    padding:1rem;
 }
 .attribution a {
      color: hsl(75, 94%, 57%);
