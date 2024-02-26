@@ -5,11 +5,48 @@
 
 
 html{
-    font-size: 16px;
+    font-size: 14px;
+    font-weight: 400;
     font-family: "Inter",sans-serif;
 }
 
 *{
     margin:0;
     padding:0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+    color:white;
+}
+.container{
+    background-color: hsl(0, 0%, 12%);
+    padding:8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.6rem;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    background-color:hsl(0, 0%, 20%);
+}
+
+.location{
+    color:hsl(75, 94%, 57%);
+}
+
+img{
+    max-width: 4vw;
+    max-height: auto;
+    border-radius: 50%;
 }
