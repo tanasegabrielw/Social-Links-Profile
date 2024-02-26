@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
-
-
 html{
     font-size: 14px;
     font-weight: 400;
@@ -19,7 +15,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    height: 100vh;
     background-color: hsl(0, 0%, 8%);
     color:white;
 }
@@ -56,7 +52,7 @@ img{
 }
 
 .name{
-    font-weight: 800;
+    font-weight: 700;
     font-size: 1.7rem;
     margin-bottom:0.5rem;
 }
@@ -70,5 +66,13 @@ img{
 .caption{
     font-size: 0.9rem;
     margin-bottom: 1.5rem;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+}
+.attribution a {
+     color: hsl(228, 45%, 44%); 
 }
 
